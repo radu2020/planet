@@ -68,10 +68,10 @@ You can run the application using Docker Compose, which will build and run the G
 
 To run all tests:
 
-    ```bash
-    go clean -testcache
-    go test ./...
-    ```
+```bash
+go clean -testcache
+go test ./...
+```
 
 ## Directory structure
 
@@ -110,7 +110,7 @@ myproject/
 │── go.mod
 │── go.sum                   # Go module file
 │── LICENSE
-│── README.md                # Project documentation
+└── README.md                # Project documentation
 ```
 
 ## System Diagram
@@ -175,14 +175,10 @@ Stores CSV data loaded by the Loader service.
 
 > The API is using the [`github.com/paulmach/orb/geojson`](https://github.com/paulmach/orb) library to parse and convert geometry data into the GeoJSON format.
 
-
-
-
 ## CICD Pipeline Diagram
 Here is a mini-design of how the CI/CD pipeline should work. This pipeline should be triggered whenever a new commit is pushed to a branch.
 
 ![Diagram](docs/cicd/cicd.png)
-
 
 ## API Authentication
 ### Context
