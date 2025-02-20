@@ -37,7 +37,7 @@ Planet is a Backend/Data application which offers 2 main functionalities:
 2. Navigate to the project directory:
 
     ```bash
-    cd go-project-name
+    cd planet
     ```
 
 3. Make sure you have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your machine. The easiest and recommended way to get Docker Compose is to install Docker Desktop. Docker Desktop includes Docker Compose along with Docker Engine and Docker CLI which are Compose prerequisites.
